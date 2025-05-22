@@ -10,10 +10,11 @@
 locale                   : "en-US"
 site_theme               : "default"
 title                    : "Kenneth Lee - Homepage"
+baseurl: ""  # Important! Leave it blank for user.github.io site
+url: "https://kenneth-lee-ch.github.io"
 title_separator          : "-"
 name                     : &name "Kenneth Lee"
 description              : &description "Ph.D. student at Purdue University. Interested in causal inference and its application to decision-making."
-url                      : kenneth-lee-ch.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 repository               : "https://github.com/kenneth-lee-ch/kenneth-lee-ch.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -40,7 +41,7 @@ author:
   github           : kenneth-lee-ch
 
   # Social media
-  
+
   linkedin         : chinhongkennethlee
   twitter          : kennethlee_ch # Username for X / Twitter
 
