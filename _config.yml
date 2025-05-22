@@ -22,7 +22,7 @@ repository               : "https://github.com/kenneth-lee-ch/kenneth-lee-ch.git
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/avatar.jpg"
+  avatar           : "profile.png"
   name             : "Kenneth Lee"
   pronouns         : "He/Him"
   bio              : "Ph.D. Student in Electrical and Computer Engineering at Purdue University"
