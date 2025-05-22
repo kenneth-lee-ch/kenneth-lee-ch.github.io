@@ -27,13 +27,10 @@ author:
   pronouns         : "He/Him"
   bio              : "Ph.D. Student in Electrical and Computer Engineering at Purdue University"
   location         : "West Lafayette, IN, USA"
-  uri              : "https://kennethlee.github.io"
   email            : "lee4094@purdue.edu" 
 
   # Academic websites
-  arxiv            : "https://arxiv.org/a/lee_k_1.html"
   googlescholar    : "https://scholar.google.com/citations?user=LjngT3wAAAAJ&hl=en&oi=ao"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
 
   # Repositories and software development
   github           : kenneth-lee-ch
