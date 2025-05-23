@@ -21,10 +21,10 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: /files/kenneth_lee_cv.pdf
 
   - title: "Resume"
-    url: /resume/
+    url: /files/kenneth_lee_resume.pdf
     
   # - title: "CV"
   #   url: /cv-json/
