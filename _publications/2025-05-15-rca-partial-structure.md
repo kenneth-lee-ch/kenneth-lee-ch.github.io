@@ -7,7 +7,7 @@ excerpt: 'We show that even if the causal graph is partially known, we can ident
 date: 2025-05-06
 venue: 'UAI 2025'
 slidesurl: ''
-paperurl: 'https://openreview.net/pdf?id=hYgDLyudos'
+paperurl: 'https://openreview.net/pdf?id=5HeODZrG9E'
 bibtexurl: 'https://kenneth-lee-ch.github.io/files/bibtex4.bib'
 citation: ''
 ---
