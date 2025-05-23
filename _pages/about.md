@@ -25,12 +25,12 @@ Kenneth is currently a Ph.D. student in Electrical and Computer Engineering at P
 {% assign pubs = site.publications | sort: "date" | reverse %}
 {% for pub in pubs %}
 - **{{ pub.title }}**{% if pub.contrib_note %} <small>({{ pub.contrib_note }})</small>{% endif %}  
-  {{ pub.authors | replace: "K. Lee", "**K. Lee**" }}. *{{ pub.venue }}*, {{ pub.date | date: "%Y" }}.  
+  {{ pub.authors | replace: "K. Lee", "**K. Lee**" }}. *{{ pub.venue }}*, {{ pub.date | date: "%Y" }}.
   {% assign links = "" %}
-  {% if pub.paperurl %}{% assign links = links | append: "[paper](" | append: pub.paperurl | append: ") " %}{% endif %}
-  {% if pub.codeurl %}{% assign links = links | append: "[code](" | append: pub.codeurl | append: ") " %}{% endif %}
-  {% if pub.bibtexurl %}{% assign links = links | append: "[bibtex](" | append: pub.bibtexurl | append: ")" %}{% endif %}
-  {{ links }}
+  {% if pub.paperurl %}{% assign links = links | append: " [paper](" | append: pub.paperurl | append: ")" %}{% endif %}
+  {% if pub.codeurl %}{% assign links = links | append: " [code](" | append: pub.codeurl | append: ")" %}{% endif %}
+  {% if pub.bibtexurl %}{% assign links = links | append: " [bibtex](" | append: pub.bibtexurl | append: ")" %}{% endif %}
+  <span style="display:inline;">{{ links }}</span>
 {% endfor %}
 
 <!-- ## 📝 Publications (<sup>†</sup> indicates equal contribution)
