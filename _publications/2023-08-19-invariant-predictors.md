@@ -9,5 +9,4 @@ venue: 'UAI'
 slidesurl: 'https://purdue0-my.sharepoint.com/:u:/g/personal/lee4094_purdue_edu/EdoeoYGpATdGlujMvnL--mgBvZaHDKpcUDxrGS4ChiwNCw?e=XDf0id'
 paperurl: 'https://proceedings.mlr.press/v216/lee23a.html'
 bibtexurl: 'https://kenneth-lee-ch.github.io/files/files/bibtex1.bib'
-citation: 'Lee, Kenneth, Md Musfiqur Rahman, and Murat Kocaoglu. "Finding invariant predictors efficiently via causal structure." Uncertainty in Artificial Intelligence. PMLR, 2023.'
 ---

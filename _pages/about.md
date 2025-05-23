@@ -20,7 +20,7 @@ Kenneth is currently a Ph.D. student in Electrical and Computer Engineering at P
 {% endfor %}
 
 
-## 📄 Publications
+## 📝 Publications
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
 {% for pub in pubs limit:4 %}
