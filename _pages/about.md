@@ -16,7 +16,7 @@ Kenneth is currently a Ph.D. student in Electrical and Computer Engineering at P
 ## 📰 News
 
 {% for item in site.data.news %}
-- **{{ item.date | date: "%b %Y" }}**: {{ item.description }}
+- **{{ item.date | date: "%b %Y" }}**: {{ item.description | markdownify }}
 {% endfor %}
 
 
