@@ -24,15 +24,13 @@ Kenneth is currently a Ph.D. student in Electrical and Computer Engineering at P
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
 {% for pub in pubs %}
-- **{{ pub.title }}**  
+- **{{ pub.title }}**{% if pub.contrib_note %} <small>({{ pub.contrib_note }})</small>{% endif %}  
   {{ pub.authors | replace: "K. Lee", "**K. Lee**" }}. *{{ pub.venue }}*, {{ pub.date | date: "%Y" }}.  
-  {% if pub.paperurl or pub.codeurl or pub.bibtexurl %}
-  <span>
-    {% if pub.paperurl %}[[paper]({{ pub.paperurl }})]{% endif %}
-    {% if pub.codeurl %} [[code]({{ pub.codeurl }})]{% endif %}
-    {% if pub.bibtexurl %} [[bibtex]({{ pub.bibtexurl }})]{% endif %}
-  </span>
-  {% endif %}
+  {% assign links = "" %}
+  {% if pub.paperurl %}{% assign links = links | append: "[paper](" | append: pub.paperurl | append: ") " %}{% endif %}
+  {% if pub.codeurl %}{% assign links = links | append: "[code](" | append: pub.codeurl | append: ") " %}{% endif %}
+  {% if pub.bibtexurl %}{% assign links = links | append: "[bibtex](" | append: pub.bibtexurl | append: ")" %}{% endif %}
+  {{ links }}
 {% endfor %}
 
 <!-- ## 📝 Publications (<sup>†</sup> indicates equal contribution)
