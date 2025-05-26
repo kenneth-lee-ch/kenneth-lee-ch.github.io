@@ -10,7 +10,9 @@
 - date: 2024-07-19
   description: "I was selected as a <a href='https://www.auai.org/uai2024/top_reviewers'>top reviewer</a> by UAI 2024."
 - date: 2024-06-18
-  description: "My paper titled 'RCPC: A Sound Causal Discovery Algorithm under Orientation Unfaithfulness' was accepted by UAI 2024."
+  description: "My paper titled 'RCPC: A Sound Causal Discovery Algorithm under Orientation Unfaithfulness' was accepted by the 9th Causal Inference Workshop at UAI 2024."
+- date: 2024-06-18
+  description: "My paper titled 'Constraint-based Causal Discovery from a Collection of Conditioning Sets' was accepted by the 9th Causal Inference Workshop at UAI 2024."
 - date: 2023-06-17
   description: "I was awarded a scholarship to attend UAI 2023."
 - date: 2023-05-05
