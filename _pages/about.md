@@ -10,7 +10,7 @@ redirect_from:
 Biography
 ======
 
-Kenneth is a Ph.D. student in Electrical and Computer Engineering at Purdue University, advised by Professor [Murat Kocaoglu](https://www.muratkocaoglu.com/). His research centers on causal discovery and its applications in machine learning, with a particular focus on invariant prediction and root cause analysis of failures in microservices. He holds a B.S. in Computer Science and Mathematics from Brigham Young University–Hawaii and an M.S. in Statistics from UC Davis. Kenneth has received best reviewer awards from AISTATS, UAI, and ICLR, and has completed internships at DellEMC, Newday Investing, Bayer, Experian DataLabs, Genentech, and Amazon.
+Kenneth is a Ph.D. student in Electrical and Computer Engineering at Purdue University, advised by Professor [Murat Kocaoglu](https://www.muratkocaoglu.com/). His research centers on causal discovery and its applications in machine learning, with a particular focus on invariant prediction and root cause analysis of failures in microservices. He holds a B.S. in Computer Science and Mathematics from Brigham Young University–Hawaii and an M.S. in Statistics from UC Davis. Kenneth has received best reviewer awards from AISTATS, UAI, and ICLR, and has completed internships at Dell EMC, Newday Investing, Bayer, Experian DataLabs, Genentech, and Amazon.
 
 
 ## 📰 News
