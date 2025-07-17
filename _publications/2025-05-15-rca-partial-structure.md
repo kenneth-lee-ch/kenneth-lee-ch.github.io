@@ -8,6 +8,6 @@ excerpt: 'We show that even if the causal graph is partially known, we can ident
 date: 2025-05-06
 venue: 'Uncertainty in Artificial Intelligence (UAI)'
 slidesurl: 'https://docs.google.com/presentation/d/13ZIWiE_2M0JgtA-Bge2sUDPny_z6yYwLP-IUeumSHCI/edit?usp=sharing'
-paperurl: 'https://openreview.net/pdf?id=5HeODZrG9E'
+paperurl: 'https://proceedings.mlr.press/v286/ikram25a.html'
 bibtexurl: 'https://kenneth-lee-ch.github.io/files/bibtex4.bib'
 ---
