@@ -31,6 +31,8 @@ Kenneth is a Ph.D. student in Electrical and Computer Engineering at Purdue Univ
     {% assign links = "" %}
     {% if pub.paperurl %}{% assign links = links | append: '<a href="' | append: pub.paperurl | append: '">[paper]</a> ' %}{% endif %}
     {% if pub.codeurl %}{% assign links = links | append: '<a href="' | append: pub.codeurl | append: '">[code]</a> ' %}{% endif %}
+    {% if pub.slidesurl %}{% assign links = links | append: '<a href="' | append: pub.slidesurl | append: '">[slides]</a> ' %}{% endif %}
+    {% if pub.posterurl %}{% assign links = links | append: '<a href="' | append: pub.posterurl | append: '">[poster]</a> ' %}{% endif %}
     {% if pub.bibtexurl %}{% assign links = links | append: '<a href="' | append: pub.bibtexurl | append: '">[bibtex]</a>' %}{% endif %}
     <span style="display:inline;">{{ links }}</span>
   </li>
@@ -44,6 +46,7 @@ Kenneth is a Ph.D. student in Electrical and Computer Engineering at Purdue Univ
   {{ pub.authors | replace: "K. Lee", "**K. Lee**" }}. *{{ pub.venue }}*, {{ pub.date | date: "%Y" }}.  
   {% if pub.paperurl %}[[paper]({{ pub.paperurl }})]{% endif %}
   {% if pub.codeurl %} [[code]({{ pub.codeurl }})]{% endif %}
-  {% if pub.slidesurl %}[[paper]({{ pub.slidesurl }})]{% endif %}
+  {% if pub.slidesurl %}[[slides]({{ pub.slidesurl }})]{% endif %}
+  {% if pub.posterurl %}[[poster]({{ pub.posterurl}})]{% endif %}
   {% if pub.bibtexurl %} [[bibtex]({{ pub.bibtexurl }})]{% endif %}
 {% endfor %} -->
