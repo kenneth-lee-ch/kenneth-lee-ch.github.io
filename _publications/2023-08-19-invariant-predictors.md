@@ -9,5 +9,7 @@ date: 2023-08-19
 venue: 'Uncertainty in Artificial Intelligence (UAI)'
 slidesurl: 'https://purdue0-my.sharepoint.com/:u:/g/personal/lee4094_purdue_edu/EdoeoYGpATdGlujMvnL--mgBvZaHDKpcUDxrGS4ChiwNCw?e=XDf0id'
 paperurl: 'https://proceedings.mlr.press/v216/lee23a.html'
+posterurl: 'https://drive.google.com/file/d/1kH2nez1Qck2i_puWsiyFKsAJB0Ti2yRp/view?usp=sharing'
+codeurl: 'https://github.com/kenneth-lee-ch/id4ip'
 bibtexurl: 'https://kenneth-lee-ch.github.io/files/bibtex1.bib'
 ---
