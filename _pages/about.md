@@ -44,5 +44,6 @@ Kenneth is a Ph.D. student in Electrical and Computer Engineering at Purdue Univ
   {{ pub.authors | replace: "K. Lee", "**K. Lee**" }}. *{{ pub.venue }}*, {{ pub.date | date: "%Y" }}.  
   {% if pub.paperurl %}[[paper]({{ pub.paperurl }})]{% endif %}
   {% if pub.codeurl %} [[code]({{ pub.codeurl }})]{% endif %}
+  {% if pub.slidesurl %}[[paper]({{ pub.slidesurl }})]{% endif %}
   {% if pub.bibtexurl %} [[bibtex]({{ pub.bibtexurl }})]{% endif %}
 {% endfor %} -->

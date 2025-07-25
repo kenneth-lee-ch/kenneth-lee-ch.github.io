@@ -10,4 +10,6 @@ venue: 'Uncertainty in Artificial Intelligence (UAI)'
 slidesurl: 'https://docs.google.com/presentation/d/13ZIWiE_2M0JgtA-Bge2sUDPny_z6yYwLP-IUeumSHCI/edit?usp=sharing'
 paperurl: 'https://proceedings.mlr.press/v286/ikram25a.html'
 bibtexurl: 'https://kenneth-lee-ch.github.io/files/bibtex4.bib'
+posterurl: 'https://drive.google.com/file/d/12zLqu0bl347Mctv3OQv9qEtYR_8_lzJg/view?usp=sharing'
+codeurl: 'https://github.com/azamikram/rcg'
 ---
