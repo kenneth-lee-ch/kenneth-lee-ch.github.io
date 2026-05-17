@@ -23,10 +23,13 @@ Kenneth is a Ph.D. candidate in Electrical and Computer Engineering at Purdue Un
 ## 📝 Publications (<sup>†</sup> indicates equal contribution)
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
-{% for pub in pubs %}
+
 <ul>
+{% for pub in pubs %}
   <li>
-    <strong>{{ pub.title }}</strong>{% if pub.contrib_note %} <small>({{ pub.contrib_note }})</small>{% endif %}<br />
+    <div>
+      <strong>{{ pub.title }}</strong>{% if pub.contrib_note %} <small>({{ pub.contrib_note }})</small>{% endif %}
+    </div>
 
     {% if pub.spotlight %}
       <div class="paper-badge paper-badge--spotlight paper-badge--compact">
@@ -34,17 +37,19 @@ Kenneth is a Ph.D. candidate in Electrical and Computer Engineering at Purdue Un
       </div>
     {% endif %}
 
-    {{ pub.authors | replace: "K. Lee", "<strong>K. Lee</strong>" }}. <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}. 
-    {% assign links = "" %}
-    {% if pub.paperurl %}{% assign links = links | append: '<a href="' | append: pub.paperurl | append: '">[paper]</a> ' %}{% endif %}
-    {% if pub.codeurl %}{% assign links = links | append: '<a href="' | append: pub.codeurl | append: '">[code]</a> ' %}{% endif %}
-    {% if pub.slidesurl %}{% assign links = links | append: '<a href="' | append: pub.slidesurl | append: '">[slides]</a> ' %}{% endif %}
-    {% if pub.posterurl %}{% assign links = links | append: '<a href="' | append: pub.posterurl | append: '">[poster]</a> ' %}{% endif %}
-    {% if pub.bibtexurl %}{% assign links = links | append: '<a href="' | append: pub.bibtexurl | append: '">[bibtex]</a>' %}{% endif %}
-    <span style="display:inline;">{{ links }}</span>
+    <div>
+      {{ pub.authors | replace: "K. Lee", "<strong>K. Lee</strong>" }}. <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}.
+      {% assign links = "" %}
+      {% if pub.paperurl %}{% assign links = links | append: '<a href="' | append: pub.paperurl | append: '">[paper]</a> ' %}{% endif %}
+      {% if pub.codeurl %}{% assign links = links | append: '<a href="' | append: pub.codeurl | append: '">[code]</a> ' %}{% endif %}
+      {% if pub.slidesurl %}{% assign links = links | append: '<a href="' | append: pub.slidesurl | append: '">[slides]</a> ' %}{% endif %}
+      {% if pub.posterurl %}{% assign links = links | append: '<a href="' | append: pub.posterurl | append: '">[poster]</a> ' %}{% endif %}
+      {% if pub.bibtexurl %}{% assign links = links | append: '<a href="' | append: pub.bibtexurl | append: '">[bibtex]</a>' %}{% endif %}
+      <span style="display:inline;">{{ links }}</span>
+    </div>
   </li>
-</ul>
 {% endfor %}
+</ul>
 
 <!-- {% assign pubs = site.publications | sort: "date" | reverse %}
 {% for pub in pubs %}
