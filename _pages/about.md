@@ -27,6 +27,30 @@ Kenneth is a Ph.D. candidate in Electrical and Computer Engineering at Purdue Un
 <ul>
   <li>
     <strong>{{ pub.title }}</strong>{% if pub.contrib_note %} <small>({{ pub.contrib_note }})</small>{% endif %}<br />
+
+    {% if pub.spotlight %}
+      <div class="paper-badge paper-badge--spotlight paper-badge--compact">
+        ⭐ {{ pub.spotlight_text | default: "Spotlight Paper" }}
+      </div>
+    {% endif %}
+
+    {{ pub.authors | replace: "K. Lee", "<strong>K. Lee</strong>" }}. <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}. 
+    {% assign links = "" %}
+    {% if pub.paperurl %}{% assign links = links | append: '<a href="' | append: pub.paperurl | append: '">[paper]</a> ' %}{% endif %}
+    {% if pub.codeurl %}{% assign links = links | append: '<a href="' | append: pub.codeurl | append: '">[code]</a> ' %}{% endif %}
+    {% if pub.slidesurl %}{% assign links = links | append: '<a href="' | append: pub.slidesurl | append: '">[slides]</a> ' %}{% endif %}
+    {% if pub.posterurl %}{% assign links = links | append: '<a href="' | append: pub.posterurl | append: '">[poster]</a> ' %}{% endif %}
+    {% if pub.bibtexurl %}{% assign links = links | append: '<a href="' | append: pub.bibtexurl | append: '">[bibtex]</a>' %}{% endif %}
+    <span style="display:inline;">{{ links }}</span>
+  </li>
+</ul>
+{% endfor %}
+
+<!-- {% assign pubs = site.publications | sort: "date" | reverse %}
+{% for pub in pubs %}
+<ul>
+  <li>
+    <strong>{{ pub.title }}</strong>{% if pub.contrib_note %} <small>({{ pub.contrib_note }})</small>{% endif %}<br />
     {{ pub.authors | replace: "K. Lee", "<strong>K. Lee</strong>" }}. <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}. 
     {% assign links = "" %}
     {% if pub.paperurl %}{% assign links = links | append: '<a href="' | append: pub.paperurl | append: '">[paper]</a> ' %}{% endif %}
@@ -49,4 +73,4 @@ Kenneth is a Ph.D. candidate in Electrical and Computer Engineering at Purdue Un
   {% if pub.slidesurl %}[[slides]({{ pub.slidesurl }})]{% endif %}
   {% if pub.posterurl %}[[poster]({{ pub.posterurl}})]{% endif %}
   {% if pub.bibtexurl %} [[bibtex]({{ pub.bibtexurl }})]{% endif %}
-{% endfor %} -->
+{% endfor %} --> -->

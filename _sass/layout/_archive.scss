@@ -243,3 +243,28 @@
     }
   }
 }
+
+.paper-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: -0.15rem 0 0.75rem 0;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: $type-size-6;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #7a3e00;
+  background: #fff3cd;
+  border: 1px solid #f0c36d;
+}
+
+.paper-badge__note {
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.paper-badge--compact {
+  margin: 0.15rem 0 0.35rem 0;
+  font-size: $type-size-6;
+}
