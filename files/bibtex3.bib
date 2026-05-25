@@ -1,0 +1,15 @@
+@InProceedings{pmlr-v286-lee25a,
+  title = 	 {Constraint-based Causal Discovery from a Collection of Conditioning Sets},
+  author =       {Lee, Kenneth and Ribeiro, Bruno and Kocaoglu, Murat},
+  booktitle = 	 {Proceedings of the Forty-first Conference on Uncertainty in Artificial Intelligence},
+  pages = 	 {2486--2516},
+  year = 	 {2025},
+  editor = 	 {Chiappa, Silvia and Magliacane, Sara},
+  volume = 	 {286},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--25 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v286/main/assets/lee25a/lee25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v286/lee25a.html},
+  abstract = 	 {In constraint-based causal discovery, the existing algorithms systematically use a series of conditional independence (CI) relations observed in the data to recover an equivalence class of causal graphs in the large sample limit. One limitation of these algorithms is that CI tests lose statistical power as conditioning set size increases with finite samples. Recent research proposes to limit the conditioning set size for robust causal discovery. However, the existing algorithms require exhaustive testing of all CI relations with conditioning set sizes up to a certain integer $k$. This becomes problematic in practice when variables with large support are present, as it makes CI tests less reliable due to near-deterministic relationships, thereby violating the faithfulness assumption. To address this issue, we propose a causal discovery algorithm that only uses CI tests where the conditioning sets are restricted to a given set of conditioning sets including the empty set $\mathcal{C}$. We call such set of CI relations ${\mathcal{I}}_{\mathcal{C}}$ conditionally closed. We define the notion of $\mathcal{C}$-Markov equivalence: two causal graphs are $\mathcal{C}$-Markov equivalent if they entail the same set of CI constraints from ${\mathcal{I}}_\mathcal{C}$. We propose a graphical representation of $\mathcal{C}$-Markov equivalence and characterize such equivalence between two causal graphs. Our proposed algorithm called the $\mathcal{C}$-PC algorithm is sound for learning the $\mathcal{C}$-Markov equivalence class. We demonstrate the utility of the proposed algorithm via synthetic and real-world experiments in scenarios where variables with large support or high correlation are present in the data.}
+}

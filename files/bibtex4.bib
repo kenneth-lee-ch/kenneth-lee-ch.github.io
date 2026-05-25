@@ -1,0 +1,15 @@
+@InProceedings{pmlr-v286-ikram25a,
+  title = 	 {Root Cause Analysis of Failures from Partial Causal Structures},
+  author =       {Ikram, Azam and Lee, Kenneth and Agarwal, Shubham and Saini, Shiv Kumar and Bagchi, Saurabh and Kocaoglu, Murat},
+  booktitle = 	 {Proceedings of the Forty-first Conference on Uncertainty in Artificial Intelligence},
+  pages = 	 {1794--1818},
+  year = 	 {2025},
+  editor = 	 {Chiappa, Silvia and Magliacane, Sara},
+  volume = 	 {286},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--25 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v286/main/assets/ikram25a/ikram25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v286/ikram25a.html},
+  abstract = 	 {Finding the root cause of failures is a prominent problem in many complex networks. Causal inference provides us with tools to address this problem algorithmically to automate this process and solve it efficiently. The existing methods either use a known causal structure to identify root cause by backtracking the changes, or ignore the causal structure but relies on invariance tests to identify the changing causal mechanisms after the failure. Assuming a single, unknown root cause, we first establish a novel connection between root cause analysis and the \textit{Interactive Graph Search (IGS)} problem. This mapping highlights the importance of causal knowledge: we demonstrate that any algorithm relying solely on marginal invariance tests to identify the root cause must perform at least $\Omega(\log_{2}(n) + d\log_{1+d}n)$ many tests, where $n$ represents the number of components and $d$ denotes the maximum out-degree of the graph. We then present an optimal algorithm that achieves this bound by reducing the root cause identification problem as an instance of IGS. Beyond the single root cause scenario, we propose a practical extension for settings with multiple root causes and partial causal knowledge. More specifically, we show that even if the causal graph is partially known, we can identify the root-causes with a linear number of invariance tests. This is the first known result on incorporating a partial causal structure for root cause analysis. Our experiments on a production-level application demonstrate that, even in the absence of complete causal information, our approach accurately identifies the root causes of failures.}
+}
