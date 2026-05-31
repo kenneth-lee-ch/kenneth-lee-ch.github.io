@@ -35,6 +35,7 @@ Kenneth is a Ph.D. candidate in Electrical and Computer Engineering at Purdue Un
     {% if pub.codeurl %}<a href="{{ pub.codeurl }}">[code]</a> {% endif %}
     {% if pub.slidesurl %}<a href="{{ pub.slidesurl }}">[slides]</a> {% endif %}
     {% if pub.posterurl %}<a href="{{ pub.posterurl }}">[poster]</a> {% endif %}
+    {% if pub.videourl %}<a href="{{ pub.videourl }}">[video]</a> {% endif %}
     {% if pub.bibtexurl %}<a href="{{ pub.bibtexurl }}">[bibtex]</a>{% endif %}
 
     {% if pub.spotlight %}
